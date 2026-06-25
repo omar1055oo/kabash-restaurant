@@ -15,7 +15,7 @@ export const Route = createFileRoute("/branches")({
 const BRANCHES = [
   {
     name: "فرع بني مزار",
-    address: "المنيا، بني مزار - طريق الساحة - أمام كوبري الساحة الجديد",
+    address: "المنيا، بني مزار - طريق الساحة - أمام كوب",
     phone: "01507722210 - 01507722209",
     hours: "11:00 صباحاً - 02:00 صباحاً",
   },
