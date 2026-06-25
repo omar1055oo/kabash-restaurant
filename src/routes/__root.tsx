@@ -83,34 +83,31 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
+      { title: "مطعم كبش | نكهة خليجية بروح مصرية" },
       {
         name: "description",
-        content: "Pixel Perfect Replica creates visually accurate, responsive website clones.",
+        content: "مطعم كبش في بني مزار يقدم أشهى المأكولات الخليجية والمشاوي والطواجن. مندي، مدفون، ومضغوط على أصوله.",
       },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
+      { name: "author", content: "Kabash" },
+      { property: "og:title", content: "مطعم كبش - نكهة خليجية بروح مصرية" },
       {
         property: "og:description",
-        content: "Pixel Perfect Replica creates visually accurate, responsive website clones.",
+        content: "اطلب الآن أفضل وجبات المندي، المدفون، المشاوي، والطواجن من مطعم كبش. طعم فنان وتوصيل سريع!",
       },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
-      { name: "twitter:title", content: "Lovable App" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "مطعم كبش - نكهة خليجية بروح مصرية" },
       {
         name: "twitter:description",
-        content: "Pixel Perfect Replica creates visually accurate, responsive website clones.",
+        content: "اطلب الآن أفضل وجبات المندي، المدفون، المشاوي، والطواجن من مطعم كبش. طعم فنان وتوصيل سريع!",
       },
       {
         property: "og:image",
-        content:
-          "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/cbb9afa1-660b-4407-9fba-83eedd39b159/id-preview-13f5a273--406d85af-3691-4699-a75c-fdc75d325ab8.lovable.app-1782359236663.png",
+        content: "https://kabash-restaurant.vercel.app/og-image.png",
       },
       {
         name: "twitter:image",
-        content:
-          "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/cbb9afa1-660b-4407-9fba-83eedd39b159/id-preview-13f5a273--406d85af-3691-4699-a75c-fdc75d325ab8.lovable.app-1782359236663.png",
+        content: "https://kabash-restaurant.vercel.app/og-image.png",
       },
     ],
     links: [
