@@ -11,7 +11,7 @@ import { useEffect, type ReactNode } from "react";
 import { CartProvider } from "../hooks/use-cart";
 
 import appCss from "../styles.css?url";
-import favIcon from "../assets/icon.webp?url"; // 👈 استيراد الأيقونة المطلوبة هنا
+import favIcon from "@/assets/logo.webp?url"; // 👈 تم تعديل الاسم والمسار هنا ليطابق الملف الفعلي ومسار الـ Alias
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { Toaster } from "@/components/ui/sonner";
 
@@ -112,7 +112,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
     ],
     links: [
-      { rel: "icon", type: "image/webp", href: favIcon }, // 👈 إضافة الأيقونة هنا بالصيغة والربط الصحيح
+      { rel: "icon", type: "image/webp", href: favIcon }, // 👈 الأيقونة مضبوطة بالصيغة والربط الصحيح
       { rel: "stylesheet", href: appCss },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
